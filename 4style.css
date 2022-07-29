@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.topnav{
+    background-color: rgb(1,1,1);
+    height: 10%;
+}
+.main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(34, 34, 34);
+    width: 30%;
+    height: inherit;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: x-large;
+    height: 18em;
+    
+}
+.row{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 4em;
+}
+button {
+    width: 20%;
+    border: 1px solid green;
+    border-radius: 350px;
+    height: 50%;
+    color: white;
+    font-size: 20px;
+}
+.operator{
+    background-color: rgb(255,129,0);
+    font-size: 25px;
+    /* display: flex; */
+    /* justify-items: flex-start; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* text-justify: center; */
+    text-anchor: inherit;
+
+}
+.number{
+    background-color: rgb(91, 91, 91);
+}
+#display{
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    border: 1px solid lightgreen;
+    padding-right: 5px;
+}
+#equals{
+    width: 100%;
+    color: black;
+    font-size: 25px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4_Function_Calculator</title>
+    <link rel="stylesheet" href="./4style.css">
+</head>
+<body>
+    <div class="topnav">
+        text here
+    </div>
+    <div class="main">
+        <div class="container" id="calculator">
+            <div class="row" id="display" >0</div>
+            <div class="row">
+                <button class="number" onclick="press(this)">7</button>
+                <button class="number" onclick="press(this);">8</button>
+                <button class="number" onclick="press(this);">9</button>
+                <button class="operator" onclick="setOP('/');">÷</button>
+            </div>
+            <div class="row">
+                <button class="number" onclick="press(this);">4</button>
+                <button class="number" onclick="press(this);">5</button>
+                <button class="number" onclick="press(this);">6</button>
+                <button class="operator" onclick="setOP('*');">×</button>
+            </div>
+            <div class="row">
+                <button class="number" onclick="press(this);">1</button>
+                <button class="number" onclick="press(this);">2</button>
+                <button class="number" onclick="press(this);">3</button>
+                <button class="operator" onclick="setOP('-');">−</button>
+            </div>
+            <div class="row">
+                <button class="number" onclick="clr();">C</button>
+                <button class="number" onclick="press(this);">0</button>
+                <button class="number" onclick="press(this);">.</button>
+                <button class="operator" onclick="setOP('+');">+</button>
+            </div>
+            <div class="row">
+                <button id="equals" onclick="calculate()">=</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="./4script.js"></script>
+</body>
+</html>
